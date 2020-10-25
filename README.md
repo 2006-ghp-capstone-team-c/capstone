@@ -1,8 +1,8 @@
-# Element Health
+# Elemental Health
 
 A patient-focused PWA that helps streamline and integrate patient data for healthcare professionals.
 
-Visit [Element Health](https://element-health.herokuapp.com/) to get your health managment up to speed!
+Visit [Elemental Health](https://elemental-health.herokuapp.com/) to get your health managment up to speed!
 
 ## Table of Contents
 
