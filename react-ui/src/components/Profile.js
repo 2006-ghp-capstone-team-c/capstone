@@ -45,7 +45,7 @@ class Profile extends Component {
         {documents.map((doc) => {
           const { type, id, imageUrl, description } = doc;
           return (
-            <div key={id}>
+            <ul key={id}>
               {type === "Proof of Identity" && (
                 <ProofOfIdentity
                   id={id}
@@ -53,7 +53,7 @@ class Profile extends Component {
                   description={description}
                 />
               )}
-            </div>
+            </ul>
           );
         })}
         <Link to="#" onClick={() => this.openUploadModal()}>
