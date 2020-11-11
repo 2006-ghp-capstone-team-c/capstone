@@ -41,6 +41,7 @@ export class ProofOfIdentity extends Component {
         <ReactModal
           isOpen={this.state.showUpdateModal}
           contentLabel="Update Document"
+          className="popup"
         >
           <button className="close" onClick={() => this.closeUpdateModal()}>
             X
